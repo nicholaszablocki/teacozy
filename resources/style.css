@@ -83,3 +83,27 @@ header nav{
   max-height: 200px;
   max-width: 300px;
 }
+.Locations{
+  height:575px;
+  width:1200px;
+  background-image: url("./img-locations-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LocationsColumn{
+  display: flex;
+  flex-direction: column;
+}
+.LocationsContainer{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.LocationsContainerText{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+
+}
