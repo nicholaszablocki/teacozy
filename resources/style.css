@@ -69,13 +69,17 @@ header nav{
   padding-bottom: 0px;
 }
 .TeaImages{
-  display:inline-block;
+  display:flex;
   width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.TeaImages img{
+.TeaImageContainer{
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.TeaImages .TeaImageContainer img{
   max-height: 200px;
   max-width: 300px;
-  margin-left: 11px;
-  margin-right: 11px;
-  margin-bottom: 12px;
 }
