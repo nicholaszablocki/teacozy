@@ -14,13 +14,18 @@ header{
   display: flex;
   width: 100%;
   align-items: center;
+  z-index: 1;
+  background-color: black;
 }
 a{
   color: seashell;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 header nav{
   flex-grow: 1;
   text-align: right;
+  margin-right: 7px;
 }
 .logo img{
   max-height: 50px;
@@ -31,4 +36,46 @@ header nav{
   margin-bottom: 9px;
   margin-top:9px;
   align-items: center;
+}
+.Mission{
+  background-image: url("./img-mission-background.jpg");
+  height: 700px;
+  width:1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 69px;
+  margin-bottom: 60px;
+}
+.MissionText{
+  background-color: black;
+  width: 1200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.Content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.FeaturedTea{
+  display: flex;
+  justify-content:center;
+  width: 1000px;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.TeaImages{
+  display:inline-block;
+  width: 1000px;
+}
+.TeaImages img{
+  max-height: 200px;
+  max-width: 300px;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 12px;
 }
